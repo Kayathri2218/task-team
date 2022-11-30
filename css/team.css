@@ -1,0 +1,62 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	margin: auto;
+	width: 80%;
+}
+hr{
+	width: 80px;
+	color: #ffff;
+	position: absolute;
+	left:110px;
+}
+.content-sec h4,p{
+	padding: 15px;
+	color: #ffff;
+}
+.content-sec h4{
+	margin-top: 10px;
+}
+.col{
+	width: 300px;
+	height: 180px;
+	border: 1px solid #f3ebf2f5;
+    background-color: #73667987;
+	border-radius: 5px 5px;
+	position: absolute;
+	bottom: -80px;
+	left: 150px;
+	text-align: center;
+	cursor: pointer;
+}
+
+img{
+	max-width: 100%;
+}
+.team.sec{
+	position: relative;
+}
+.image{
+	position: relative;
+}
+.icon{
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	color: #ffff;
+}
+.twitter:hover{
+	color:#f5000a;
+}
+.facebook:hover{
+	color: #3100ce;
+}
+.insta:hover{
+	color: #f5000a;
+}
+.link:hover{
+	color: #3100ce;
+}
